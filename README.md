@@ -6,4 +6,7 @@ https://github.com/ikmb/TOFU-MAaPO
 
 
 # Note
-must run in home
+must run in home  
+
+https://github.com/biobakery/biobakery/wiki/humann3#23-humann-default-outputs  
+https://github.com/biobakery/humann/blob/master/humann/tools/regroup_table.py#L44  
