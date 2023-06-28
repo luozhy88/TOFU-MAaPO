@@ -10,3 +10,8 @@ must run in home
 
 https://github.com/biobakery/biobakery/wiki/humann3#23-humann-default-outputs  
 https://github.com/biobakery/humann/blob/master/humann/tools/regroup_table.py#L44  
+
+
+runOptions = "-B /data3/zhiyu"  #目录层级不能太多
+3.213.10.33 quay.io
+172.64.150.58 cdn03.quay.io
