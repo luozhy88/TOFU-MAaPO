@@ -18,3 +18,10 @@ runOptions = "-B /data3/zhiyu"  #目录层级不能太多
 3.213.10.33 quay.io  
 172.64.150.58 cdn03.quay.io  
 /etc/init.d/networking restart  
+
+
+
+# 自动删掉work directory
+可以直接在nextflow.config文件里加上cleanup=true  
+https://www.nextflow.io/docs/latest/config.html#miscellaneous  
+跑完就自动删掉了work directory  
