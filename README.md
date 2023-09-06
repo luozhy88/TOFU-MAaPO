@@ -11,6 +11,7 @@ mmu_genome:https://benlangmead.github.io/aws-indexes/bowtie
 must run in home  
 
 fq必须是以gz结尾  
+gzip *fq
 
 https://github.com/biobakery/biobakery/wiki/humann3#23-humann-default-outputs  
 https://github.com/biobakery/humann/blob/master/humann/tools/regroup_table.py#L44    
