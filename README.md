@@ -10,6 +10,8 @@ mmu_genome:https://benlangmead.github.io/aws-indexes/bowtie
 # Note
 must run in home  
 
+fq必须是以gz结尾  
+
 https://github.com/biobakery/biobakery/wiki/humann3#23-humann-default-outputs  
 https://github.com/biobakery/humann/blob/master/humann/tools/regroup_table.py#L44    
 
