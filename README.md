@@ -8,7 +8,7 @@ mmu_genome:https://benlangmead.github.io/aws-indexes/bowtie
 /data3/zhiyu/software/TOFU/test  
 
 # Note
-must run in home  
+
 
 fq必须是以gz结尾  
 gzip *fq
