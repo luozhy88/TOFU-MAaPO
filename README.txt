@@ -6,6 +6,8 @@ mmu_genome:https://benlangmead.github.io/aws-indexes/bowtie
 ./nextflow-23.04.1-all run ~/TOFU-MAaPO-1.3.2/ --reads sample.csv -profile custom --humann -resume  --genome human --kraken --metaphlan
 ## 31 site
 /data3/zhiyu/software/TOFU/test  
+/home/zhiyu/data/script/TOFU_16S/nextflow-23.04.1-all run /data3/zhiyu/software/TOFU/TOFU-MAaPO-1.40/ --reads fq_test.csv  -profile custom  --magscot --assembly -resume  --outdir result
+
 
 # Note
 
