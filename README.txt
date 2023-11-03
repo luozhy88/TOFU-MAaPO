@@ -11,6 +11,8 @@ mmu_genome:https://benlangmead.github.io/aws-indexes/bowtie
 
 ./nextflow-23.04.1-all run ikmb/TOFU-MAaPO -r 1.4.0 --reads '/data3/zhiyu/rawdata/16S/221028_C70164_0089_000000000-K7RN4/*_R{1,2}_001.fastq.gz'  -profile /data3/zhiyu/software/TOFU/TOFU-MAaPO-1.40/conf/custom.config  --humann -resume  --genome human --kraken --metaphlan
 
+nextflow  run ikmb/TOFU-MAaPO -r 1.4.0  --reads '/data3/zhiyu/pipelines/shotgun/test/ceshi/rawdata/*_R{1,2}_001.fastq.gz'  -profile custom  --humann  --genome human --kraken --metaphlan #need copy custom.config
+
 /home/zhiyu/data/script/TOFU_16S/nextflow-23.04.1-all run ikmb/TOFU-MAaPO -r 1.4.0 --reads fq_test.csv  -profile custom  --magscot --assembly -resume  --outdir result
 
 
